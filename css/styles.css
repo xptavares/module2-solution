@@ -1,0 +1,16 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+
+h1 {
+  margin-bottom: 15px;
+  font-size: 1.75em;
+  text-align: center
+}
