@@ -14,6 +14,40 @@ h1 {
   text-align: center
 }
 
+.seccion {
+  border: 5px solid white;
+  height: 300px;
+  color: #FFFFFF;
+  position: relative;
+  background-color: #696969;
+}
+
+.seccion p {
+  position: absolute;
+  top: 10px;
+  padding: 15px;
+}
+
+.seccion-titulo {
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  background-color: #6806FF;
+  color: black;
+  width: 100px;
+  text-align: center;
+  padding-right: 0px;
+  font-size: 1.25em;
+}
+
+.seccion-titulo.yellow {
+  background-color: #EDFF00;
+}
+
+.seccion-titulo.red {
+  background-color: #FD0009;
+}
+
 /* Simple Responsive Framework. */
 .container.row {
   width: 100%;
